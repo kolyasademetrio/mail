@@ -1,0 +1,594 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> common Styles <<< ------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+a {
+    color: inherit;
+}
+
+sub, sup {
+    font-size: 50%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+p {
+    margin: 0;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> common Styles End <<<---------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;;
+    color: #737373;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    min-width: 100% !important;
+}
+
+.wrapperMain {
+    width: 100%;
+    max-width: 600px;
+}
+
+.clickHere {
+    font-weight: bold;
+    padding: 0 0 0 30px;
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> headerTop <<<------------------------------------------------------ */
+/* ---------------------------------------------------------------------------------------------------- */
+.headerTop {
+    padding: 14px 10px 2px 10px;
+}
+
+.headerTop__inner {
+    width: 100%;
+    max-width: 600px;
+}
+
+.headerTop__inner .column {
+    padding-top: 7px;
+    padding-bottom: 3px;
+    background-color: #fff;
+}
+
+.headerTop__inner .column:first-child {
+    width: 135px;
+}
+
+.headerTop__inner .column:nth-child(2),
+.headerTop__inner .column:nth-child(3) {
+    width: 115px;
+}
+
+.headerTop__inner a {
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 19px;
+    text-decoration: none;
+    color: #009bc3;
+}
+
+.headerTop__inner .column:first-child a,
+.headerTop__inner .column:nth-child(2) a {
+    border-right: 1px solid #009bc3;
+}
+
+.headerTop__inner .column:last-child {
+    background-color: #fff;
+    margin: 10px 0 0;
+}
+
+.headerTop__inner .column:last-child img {
+    margin: 0 10px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> headerTop End <<<-------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> headerBottom <<<--------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.headerBottom {
+    padding: 0 10px;
+}
+
+.headerBottom__inner {
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+}
+
+.headerBottom__inner a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #009bc3;
+    line-height: 1.2;
+}
+
+.headerBottom__inner .column:first-child {
+    width: 150px;
+    padding: 19px 0 13px 9px;
+}
+
+.headerBottom__inner .column:nth-child(2) {
+    width: 235px;
+}
+
+.footerBottom__textWrap {
+    margin: 12px 0 0;
+    border-left: 1px solid #d6d6d6;
+    padding: 9px 0 9px 20px;
+}
+
+.footerBottom__textWrap>div:not(:last-child) {
+    margin: 0 0 7px 0;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> headerBottom End <<<----------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> mainInfo <<<------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.mainInfo {
+    padding: 0 10px;
+}
+
+.mainInfo__inner {
+    padding: 45px 0 0;
+    background:url("img/patient.jpg") no-repeat right top;
+    width: 580px;
+    height: 343px;
+}
+
+.mainInfo__space {
+    width: 180px;
+}
+
+.mainInfo__patient {
+    padding: 0 0 0 24px;
+    font-size: 24px;
+    height: 117px;
+    color: #490066;
+    font-family: 'Muli', sans-serif;
+}
+
+.mainInfo__wrapText {
+    padding: 33px 0 0 30px;
+}
+
+.mainInfo__text {
+    font-size: 18px;
+    color: #fff;
+    background-color: #009cb0;
+    border-bottom: 4px solid #006673;
+    padding: 7px 13px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.mainInfo__arrow {
+    width: 30px;
+    background-color: #009cb0;
+    border-bottom: 4px solid #006673;
+}
+
+.mainInfo__arrow img {
+    position: relative;
+    top: 4px;
+}
+
+.mainInfo__bottomInner {
+    padding-left: 30px;
+}
+
+.mainInfo__bottomInner>table:nth-child(1) tr td {
+    color: #490066;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    padding: 13px 0 7px;
+    font-size: 22px;
+}
+
+.mainInfo__bottomInner>table:nth-child(2) tr {
+    height: 21px;
+}
+
+.mainInfo__bottomInner>table:nth-child(2) tr>td:nth-child(2) {
+    font-size: 14px;
+    padding: 0 0 0 10px;
+}
+
+.mainInfo__bottomInner>table:nth-child(3) {
+    padding: 2px 0;
+}
+
+.mainInfo__bottomInner>table:nth-child(3) tr>td {
+    border-top: 3px solid #98cf7a;
+    border-bottom: 3px solid #98cf7a;
+    color: #000;
+    padding: 11px 0 11px 2px;
+    font-size: 16px;
+    font-weight:  bold;
+}
+
+.square {
+    width: 7px;
+    height: 7px;
+    background-color: #98e376;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> mainInfo End <<<--------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> textInfo <<<------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.textInfo {
+    padding: 15px 30px 0;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.1;
+    font-weight: bold;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> textInfo End <<<--------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> percentage <<<----------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.percentage__inner {
+    padding: 8px 30px 0 30px;
+}
+
+.percentage__inner>tbody>tr:first-child>td {
+    width: 600px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #98cf7a;
+    font-size: 18px;
+    padding: 7px 8px;
+}
+
+.percentage__inner>tbody>tr:nth-child(2)>td.column {
+    width: 300px;
+    background-color: #fff;
+    padding: 8px 0;
+}
+
+.percentage__inner>tbody>tr:nth-child(2)>td.column>table>tbody>tr>td:first-child {
+    text-align: right;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 0 5px 0 0;
+}
+
+.percentage__inner>tbody>tr:nth-child(2)>td.column:first-child>table {
+    color: #511c74;
+}
+
+.percentage__inner>tbody>tr:nth-child(2)>td.column:nth-child(2)>table {
+    color: #9a9c9f;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> percentage End <<<------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> note <<<----------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.note {
+    padding: 12px 30px 5px;
+    font-size: 10px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> note End <<<------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> list <<<----------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.list {
+    color: #000;
+    padding: 0 30px;
+}
+
+.list__inner {
+    padding: 0 0 4px;
+    line-height: 1.1;
+}
+
+.list__inner tr>td:first-child {
+    padding: 4px 0 0 0;
+}
+
+.list__inner tr>td:nth-child(2) {
+    font-size: 14px;
+    padding: 0 0 0 10px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> list End <<<------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> infoBlock <<<------------------------------------------------------ */
+/* ---------------------------------------------------------------------------------------------------- */
+.infoBlock {
+    padding: 5px 30px 9px;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.1;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> infoBlock End <<<-------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> readFull <<<------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.readFull {
+    padding: 0 30px 15px;
+}
+
+.readFull a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #009db1;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> readFull End <<<--------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> seeEdition <<<----------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.seeEdition {
+    padding: 0 15px 10px;
+}
+
+.seeEdition__inner {
+    width: 100%;
+}
+
+.seeEdition__inner td.column {
+    padding: 0 0 15px 0;
+}
+
+.seeEdition__button {
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+    color: #009db1;
+    background-color: white;
+    border-bottom: 4px solid #0095a8;
+    height: 42px;
+    padding-left: 10px;
+    width: 97%;
+    height: 42px;
+}
+
+.seeEdition__button td:nth-child(2) {
+    padding: 0 7px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> seeEdition End <<<------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> register <<<------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.register {
+    padding: 0 45px 10px;
+}
+
+.register__inner {
+    width: 100%;
+    background-color: #fff;
+    padding: 0 0 18px;
+}
+
+.register__inner>tbody>tr:first-child>td {
+    font-weight:  bold;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 17px 0 9px;
+}
+
+.register__inner>tbody>tr:nth-child(2)>td.column:first-child {
+    width: 200px;
+}
+
+.register__inner>tbody>tr:nth-child(2)>td.column:first-child>img {
+    padding: 5px 0 0 25px;
+}
+
+.register__inner>tbody>tr:nth-child(2)>td.column:nth-child(2) {
+    padding: 18px 0 0 18px;
+}
+
+.register__inner>tbody>tr:nth-child(2)>td.column:nth-child(2)>table {
+    font-size: 17px;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    background-color: #009db1;
+    border-bottom: 4px solid #0095a8;
+    height: 42px;
+    padding: 0 0 0 17px;
+}
+
+.register__inner>tbody>tr:nth-child(2)>td.column:nth-child(2)>table td:nth-child(2) {
+    padding: 0 14px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> register End <<<--------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> registerNote <<<--------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.registerNote {
+    padding: 0 45px 18px;
+    font-size: 10px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> registerNote End <<<----------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.title {
+    color: #490066;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 11px;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+
+.subtitle2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+.link {
+    color: #511073;
+}
+
+.link-blue {
+    color: #0099c1;
+}
+
+@media only screen and (min-width: 601px) {
+    .content {
+        width: 600px !important;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    table[class="mainInfo__inner"] {
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        min-height: 343px;
+    }
+
+    td[class="mainInfo"] {
+        padding: 0;
+    }
+
+    td[class="mainInfo__patient"] {
+        padding-left: 10px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .mainInfo__bottomInner {
+        padding-top: 55px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    td[class="column"] {
+        display: block;
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .content td.column {
+        background-color: transparent;
+    }
+
+    td.column a {
+        border: none !important;
+    }
+
+    table[class="seeEdition__inner"] {
+        padding: 0 45px;
+    }
+
+    div[class="gray-border"] {
+        border-left: none;
+        border-bottom: 15px solid #97cd78;
+        padding-bottom: 18px;
+        padding-left: 20px;
+    }
+
+    td[class="mainInfo__patient"] {
+        font-size: 12px;
+        padding-right: 20px;
+        padding-left: 5px;
+        line-height: 1.3;
+    }
+
+    td[class="mainInfo__text"] {
+        font-size: 12px;
+        padding: 7px 3px 7px 10px;
+    }
+
+    td[class="mainInfo__wrapText"] {
+        padding-top: 33px;
+        padding-left: 10px;
+    }
+
+    table[class="mob-full-width"] {
+        width: 100%;
+    }
+}
